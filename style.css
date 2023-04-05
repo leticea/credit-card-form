@@ -82,6 +82,9 @@ label {
   font-weight: 600;
   font-size: 1.4rem;
   color: #e5e7eb;
+
+  gap: 0.4rem;
+  align-items: center;
 }
 
 input {
@@ -95,7 +98,7 @@ input {
 }
 
 input:focus {
-  outline: 0.15rem solid #9333EA;
+  outline: 0.15rem solid #9333ea;
 }
 
 .col-2 {
@@ -105,4 +108,18 @@ input:focus {
 
 .col-2 .input-wrapper:nth-child(2) {
   flex-basis: 40%;
+}
+
+.help img {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+.security-info {
+  margin-top: 4.8rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+  font-size: 1.4rem;
+  color: #e5e7eb;
 }
