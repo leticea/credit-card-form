@@ -11,8 +11,14 @@
 }
 
 body {
-  font-size: 1.6rem;
   background: #1f2937;
+}
+
+body,
+input,
+button {
+  font-size: 1.6rem;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 form {
@@ -81,5 +87,13 @@ label {
 input {
   margin-top: 0.4rem;
   width: 100%;
-  font-family: "Source Sans Pro";
+  padding: 1.2rem;
+  border: 0.1rem solid #374151;
+  border-radius: 0.4rem;
+  background: #111827;
+  color: #f3f4f6;
+}
+
+input:focus {
+  outline: 0.15rem solid #9333EA;
 }
