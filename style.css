@@ -139,5 +139,9 @@ button {
   color: #f9fafb;
 
   cursor: pointer;
+  transition: all 0.2s;
+}
 
+button:hover {
+  background: #a855f7;
 }
