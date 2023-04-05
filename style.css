@@ -26,3 +26,17 @@ form {
   width: 32.8rem;
   height: 21.2rem;
 }
+
+#credit-card > div {
+  width: inherit;
+  height: inherit;
+  position: absolute;
+}
+
+#credit-card .front {
+  background: url("./assets/ccfront.png") no-repeat;
+}
+
+#credit-card .back {
+  background: url("./assets/ccback.png") no-repeat;
+}
