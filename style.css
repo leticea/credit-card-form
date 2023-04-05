@@ -25,18 +25,36 @@ form {
 #credit-card {
   width: 32.8rem;
   height: 21.2rem;
+
+  perspective: 60rem;
 }
 
 #credit-card > div {
   width: inherit;
   height: inherit;
   position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
 }
 
 #credit-card .front {
   background: url("./assets/ccfront.png") no-repeat;
+  transform: rotateY(0);
 }
 
 #credit-card .back {
   background: url("./assets/ccback.png") no-repeat;
+  transform: rotateY(-180deg);
+}
+
+#credit-card:hover .front {
+  transform: rotateY(180deg);
+}
+
+#credit-card:hover .back {
+  transform: rotateY(0);
 }
