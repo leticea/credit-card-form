@@ -12,4 +12,17 @@
 
 body {
   font-size: 1.6rem;
+  background: #1f2937;
+}
+
+form {
+  border: 1px solid red;
+  padding: 2.4rem;
+  max-width: 40rem;
+  margin: auto;
+}
+
+#credit-card {
+  width: 32.8rem;
+  height: 21.2rem;
 }
