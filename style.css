@@ -16,7 +16,6 @@ body {
 }
 
 form {
-  border: 1px solid red;
   padding: 2.4rem;
   max-width: 40rem;
   margin: auto;
@@ -37,6 +36,7 @@ form {
   left: 0;
   z-index: 1000;
 
+  transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   transform-style: preserve-3d;
   backface-visibility: hidden;
 }
@@ -49,12 +49,15 @@ form {
 #credit-card .back {
   background: url("./assets/ccback.png") no-repeat;
   transform: rotateY(-180deg);
+  top: -0.4rem;
 }
 
+#credit-card:active .front,
 #credit-card:hover .front {
   transform: rotateY(180deg);
 }
 
+#credit-card:active .back,
 #credit-card:hover .back {
   transform: rotateY(0);
 }
