@@ -1,7 +1,3 @@
-IMask(document.querySelector("#cc-cvv"), {
-  mask: "0000",
-});
-
 IMask(document.querySelector("#cc-number"), {
   mask: "0000 0000 0000 0000",
 });
@@ -20,4 +16,8 @@ IMask(document.querySelector("#cc-validity"), {
       to: String(new Date().getFullYear() + 10).slice(2),
     },
   },
+});
+
+IMask(document.querySelector("#cc-cvv"), {
+  mask: "0000",
 });

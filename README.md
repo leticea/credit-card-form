@@ -11,6 +11,9 @@
   <img alt="" src=".github/image.png">
 </p>
 
+<p align="center">
+  <img alt="" src=".github/image2.png">
+</p>
 
 ## Credit Card Form
 
@@ -95,6 +98,12 @@ Projetos #boraCodar da [Rocketseat](https://boracodar.dev/).
       <td>Login Screen</td>
       <td>22/03/23</td>
       <td><a href="https://github.com/leticea/login-screen">🔗</a></td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>Kanban Interface</td>
+      <td>29/03/23</td>
+      <td><a href="https://github.com/leticea/kanban-interface">🔗</a></td>
     </tr>
   </tbody>
 </table>
