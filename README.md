@@ -198,9 +198,6 @@ Projetos #boraCodar da [Rocketseat](https://boracodar.dev/).
   </tbody>
 </table>
 
-SHA256:ZTG/zZtiD3YOME2E1S30G8vVduuHpweI98rzYf07yfY
-
-
 ## ⚙️ Como Rodar
 
 - Clone o projeto.
